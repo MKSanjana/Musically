@@ -1,0 +1,13 @@
+#:kivy 2.0.0
+
+<Button_Widget>:
+    
+    # creating Canvas 
+    canvas.before:
+        Color:
+            rgba: 0.72, 0.62, 0.92, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    Button:
+        border: 30,30,30,30
